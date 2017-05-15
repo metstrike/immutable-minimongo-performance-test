@@ -4,9 +4,9 @@
   "description": "Measuring performance of immutable-minimongo and comparing it with a performance of standalone minimongo",
   "main": "test.js",
   "scripts": {
-    "test": "node test.js",
-    "run": "node test.js",
-    "debug": "node --inspect --debug-brk test.js"
+    "test": "node --max_old_space_size=4096 test.js",
+    "run": "node --max_old_space_size=4096 test.js",
+    "debug": "node --inspect --debug-brk --max_old_space_size=4096 test.js"
   },
   "repository": {
     "type": "git",

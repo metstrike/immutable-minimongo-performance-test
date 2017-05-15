@@ -8,7 +8,11 @@ and measures time of various operations performed on this dataset.
 
 ## Installation
 
-  `git clone https://github.com/metstrike/immutable-minimongo-performance-test.git`
+```
+$ git clone https://github.com/metstrike/immutable-minimongo-performance-test.git
+$ cd immutable-minimongo-performance-test
+$ npm install
+```
 
 ## Performance Test
 
