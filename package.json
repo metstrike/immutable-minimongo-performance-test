@@ -1,0 +1,30 @@
+{
+  "name": "immutable-minimongo-performance-test",
+  "version": "0.0.1",
+  "description": "Measuring performance of immutable-minimongo and comparing it with a performance of standalone minimongo",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "run": "node test.js",
+    "debug": "node --inspect --debug-brk test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metstrike/immutable-minimongo-performance-test.git"
+  },
+  "author": "metstrike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metstrike/immutable-minimongo-performance-test/issues"
+  },
+  "homepage": "https://github.com/metstrike/immutable-minimongo-performance-test#readme",
+  "dependencies": {
+    "cities.json": "*",
+    "immutable": "*",
+    "metstrike-minimongo": "*",
+    "immutable-minimongo": "*",
+    "mudash": "^0.10.0"
+  },
+  "devDependencies": {
+  }
+}
